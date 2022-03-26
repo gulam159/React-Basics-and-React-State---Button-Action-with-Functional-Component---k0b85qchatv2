@@ -4,12 +4,8 @@ import "./../styles/App.css";
 function App() {
   const[state, setState] = useState('');
   const showText=()=>{
-      if(state===''){
-    setState(" Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
-  } else{
-    setState('')
-  }
-  }
+    setState("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");
+  };
   return (
     <div id="main">
       <p id='click'>{state}</p>
