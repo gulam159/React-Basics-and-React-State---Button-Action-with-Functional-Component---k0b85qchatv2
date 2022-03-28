@@ -5,7 +5,7 @@ function App() {
   const showText=()=>{
     const para = document.createElement("p");
     para.setAttribute('id', 'click');
-    para.innerHTML = "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
+    para.innerText = "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
     document.body.appendChild(para);
   };
   
