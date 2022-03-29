@@ -18,7 +18,7 @@ function App() {
   return (
     <div id="main">
     <button id='click' onClick={showText}> Show Text </button>
- {showPara && <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
+ {showPara && <p id="click">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
     </div>
   );
 }
