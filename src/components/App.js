@@ -11,14 +11,16 @@ function App() {
   
   const [showPara, setShowPara] = useState(false);
    const showText = () => {
-  	setShowPara(true)
+//   	setShowPara(true)
+     setShowPara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
 //      set showPara  state to negation of current value
   }
   
   return (
     <div id="main">
     <button id='click' onClick={showText}> Show Text </button>
- {showPara && <p id="click">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
+//  {showPara && <p id="click">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
+<p id='click'>{showPara}</p>
     </div>
   );
 }
